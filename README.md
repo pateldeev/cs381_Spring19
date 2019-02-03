@@ -11,7 +11,7 @@ I used eclipse to build and run the program. In order for everything to work, [O
 * OgreOverlay
 * OIS
 * boost_system
-<br> Note: Eclipse must also be setup with the correct include directories for all the libraries (in addition to the 'include' directory of project itself). You may also need to change the *.cfg files so that they reference the correct paths for everything.
+<a/><br><br> Note: Eclipse must also be setup with the correct include directories for all the libraries (in addition to the 'include' directory of project itself). You may also need to change the *.cfg files so that they reference the correct paths for everything.
 
 ## Notes
 For the most part, I just used the [code](https://www.cse.unr.edu/~sushil/class/381/tutorials/) from [Ogre Tutorial # 1](https://ogrecave.github.io/ogre/api/latest/tut__first_scene.html). However, I made some changes in order to display bounding boxes around each head and alter the window name. I also went ahead and moved the main() function to its own source file. I felt like this was a much cleaner layout for the project.
