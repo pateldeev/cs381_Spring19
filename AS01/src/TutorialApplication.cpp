@@ -120,7 +120,9 @@ bool TutorialApplication::keyPressed(const OIS::KeyEvent &arg) {
 			++mObjSelected %= OBJ_TOTAL;
 
 		mObjectNodes[mObjSelected]->showBoundingBox(true);
-		mObjVelocities[mObjSelected]; //create entry for velocity - so we know to update
+		if (mObjVelocities.find(mObjSelected) == mObjVelocities.end())
+			mObjVelocities[mObjSelected] = Ogre::Vector3(0.0); //create entry for velocity - so we know to update
+
 		mUpdateRotation = false;
 		break;
 
