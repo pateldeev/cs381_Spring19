@@ -16,15 +16,15 @@ I used eclipse to build and run the program. In order for everything to work, [O
 ## Key & Controls
 * Camera Movement - relative to viewing direction
   * W/S : Move camera along z-axis
-   * +LSHIFT : Move at fast speed
+    * +LSHIFT : Move at fast speed
   * A/D : Move camera along x-axis
-   * +LSHIFT : Move at fast speed
+    * +LSHIFT : Move at fast speed
   * R/F : Move camera along y-axis 
-   * +LSHIFT : Move at fast speed
+    * +LSHIFT : Move at fast speed
   * Z/X: Pitch camera
-   * +LSHIFT : Rotate at fast speed
+    * +LSHIFT : Rotate at fast speed
   * Q/E : Yaw camera
-   * +LSHIFT : Rotate at fast speed
+    * +LSHIFT : Rotate at fast speed
   * LCTR+R : Reset camera position and orientation
   * T : Toggle camera mode (attach/detach camera from selected object)
 * Object Selection
@@ -40,11 +40,11 @@ I used eclipse to build and run the program. In order for everything to work, [O
   * SPACE : reset object speed, heading, and altitude to default values. Also remove any AI commands
 * Adding AI Controls to Selected Object(s)
   * CENTER_CLICK : Add MoveTo command at place of click
-   * +LSHIFT : Queue command to back of list - will execute after all others are done
+    * +LSHIFT : Queue command to back of list - will execute after all others are done
   * RIGHT_CLICK : Add Intercept command to interecept target under click
-   * +LSHIFT : Queue command to back of list - will execute after all others are done
+    * +LSHIFT : Queue command to back of list - will execute after all others are done
   * LCTR+RIGHT_CLICK : Add Follow command to follow target under click
-   * +LSHIFT : Queue command to back of list - will execute after all others are done
+    * +LSHIFT : Queue command to back of list - will execute after all others are done
 
 ## Bounding Box Colors
 * Green : Main selected entity (hitting tab will increment to next entity) (hitting T will attach camera to this entity)
